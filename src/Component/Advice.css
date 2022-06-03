@@ -1,0 +1,72 @@
+
+
+button{
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+}
+
+button:focus{
+    outline: none;
+} 
+
+.AdviceCard{
+    background-color: hsl(217, 19%, 24%);
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 350px;
+    max-width: 550px;
+    border-radius: 5%;
+    height: auto; 
+}
+
+.AdviceNumber{
+    color: hsl(150, 100%, 66%);
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.Advice{
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    padding: 20px;
+}
+
+.diceiconbutton{
+    height: 50px; 
+    width: 50px; 
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.diceiconbutton:hover{
+    box-shadow: 0px 0px 20px 5px #57ffb0;
+}
+
+.diceicon{
+    display:block; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.Line{
+    display: block; 
+    text-align: center;
+    padding-bottom: 3rem;
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto;
+}
